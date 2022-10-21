@@ -1,0 +1,466 @@
+-- Instances:
+
+local MainGui = Instance.new("ScreenGui")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local BeforeFling = Instance.new("TextButton")
+local StopFling = Instance.new("TextButton")
+local Infjump = Instance.new("TextButton")
+local Fling = Instance.new("TextButton")
+local Clickp = Instance.new("TextLabel")
+local RemoveLimbs = Instance.new("TextButton")
+local Cmd = Instance.new("TextButton")
+local PcloseGui = Instance.new("TextLabel")
+local Iy = Instance.new("TextButton")
+local Reviz = Instance.new("TextButton")
+local CrashChat = Instance.new("TextButton")
+local ChatBy = Instance.new("TextButton")
+local Ctrl = Instance.new("TextButton")
+local DestroyGui = Instance.new("TextButton")
+local AutoClick = Instance.new("TextButton")
+local Autofarms = Instance.new("TextLabel")
+local BF = Instance.new("TextLabel")
+local Hoho = Instance.new("TextButton")
+local Ripp = Instance.new("TextButton")
+local Patchtext = Instance.new("TextLabel")
+local FE = Instance.new("TextLabel")
+local Rippv2 = Instance.new("TextButton")
+local BFPack = Instance.new("TextButton")
+
+--Properties:
+
+MainGui.Name = "MainGui"
+MainGui.Parent = game.CoreGui
+MainGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ScrollingFrame.Parent = MainGui
+ScrollingFrame.Active = true
+ScrollingFrame.Draggable = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(255, 85, 255)
+ScrollingFrame.Position = UDim2.new(0.015785303, 0, 0.45727846, 0)
+ScrollingFrame.Size = UDim2.new(0, 361, 0, 218)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 450)
+
+BeforeFling.Name = "BeforeFling"
+BeforeFling.Parent = ScrollingFrame
+BeforeFling.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BeforeFling.BorderColor3 = Color3.fromRGB(255, 255, 255)
+BeforeFling.BorderSizePixel = 2
+BeforeFling.Position = UDim2.new(0.284907877, 0, 0.0382312387, 0)
+BeforeFling.Size = UDim2.new(0, 247, 0, 33)
+BeforeFling.Font = Enum.Font.SourceSans
+BeforeFling.Text = "Tip: I would use while flying"
+BeforeFling.TextColor3 = Color3.fromRGB(83, 241, 231)
+BeforeFling.TextSize = 20.000
+
+StopFling.Name = "StopFling"
+StopFling.Parent = ScrollingFrame
+StopFling.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+StopFling.BorderColor3 = Color3.fromRGB(221, 255, 243)
+StopFling.BorderSizePixel = 2
+StopFling.Position = UDim2.new(0, 0, 0.0693154186, 0)
+StopFling.Size = UDim2.new(0, 100, 0, 45)
+StopFling.Font = Enum.Font.SourceSans
+StopFling.Text = "Stop Fling"
+StopFling.TextColor3 = Color3.fromRGB(64, 51, 255)
+StopFling.TextSize = 29.000
+
+Infjump.Name = "Infjump"
+Infjump.Parent = ScrollingFrame
+Infjump.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Infjump.BackgroundTransparency = 0.100
+Infjump.BorderColor3 = Color3.fromRGB(255, 1, 1)
+Infjump.BorderSizePixel = 2
+Infjump.Size = UDim2.new(0, 100, 0, 44)
+Infjump.Font = Enum.Font.SourceSansItalic
+Infjump.Text = "Infjump"
+Infjump.TextColor3 = Color3.fromRGB(255, 1, 1)
+Infjump.TextSize = 29.000
+Infjump.TextWrapped = true
+
+Fling.Name = "Fling"
+Fling.Parent = ScrollingFrame
+Fling.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Fling.BorderColor3 = Color3.fromRGB(116, 255, 10)
+Fling.BorderSizePixel = 2
+Fling.Position = UDim2.new(0, 0, 0.034142375, 0)
+Fling.Size = UDim2.new(0, 100, 0, 45)
+Fling.Font = Enum.Font.SourceSans
+Fling.Text = "Fling"
+Fling.TextColor3 = Color3.fromRGB(83, 241, 231)
+Fling.TextSize = 29.000
+
+Clickp.Name = "Clickp"
+Clickp.Parent = ScrollingFrame
+Clickp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Clickp.BackgroundTransparency = 12312.000
+Clickp.Position = UDim2.new(0.0249307323, 0, 0.0484284088, 0)
+Clickp.Size = UDim2.new(0, 84, 0, 32)
+Clickp.Font = Enum.Font.SourceSans
+Clickp.Text = "+Click=+Power"
+Clickp.TextColor3 = Color3.fromRGB(255, 29, 0)
+Clickp.TextSize = 14.000
+
+RemoveLimbs.Name = "RemoveLimbs"
+RemoveLimbs.Parent = ScrollingFrame
+RemoveLimbs.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RemoveLimbs.Position = UDim2.new(-0.00160037912, 0, 0.104430377, 0)
+RemoveLimbs.Size = UDim2.new(0, 104, 0, 43)
+RemoveLimbs.Font = Enum.Font.SourceSans
+RemoveLimbs.Text = "Remove Limbs"
+RemoveLimbs.TextColor3 = Color3.fromRGB(31, 138, 126)
+RemoveLimbs.TextSize = 19.000
+
+Cmd.Name = "Cmd"
+Cmd.Parent = ScrollingFrame
+Cmd.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Cmd.BorderColor3 = Color3.fromRGB(123, 195, 144)
+Cmd.BorderSizePixel = 2
+Cmd.Position = UDim2.new(0.32620734, 0, 0.00290313363, 0)
+Cmd.Size = UDim2.new(0, 105, 0, 35)
+Cmd.Font = Enum.Font.SourceSans
+Cmd.Text = "Load CMD-X"
+Cmd.TextColor3 = Color3.fromRGB(255, 10, 10)
+Cmd.TextSize = 23.000
+
+PcloseGui.Name = "PcloseGui"
+PcloseGui.Parent = ScrollingFrame
+PcloseGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PcloseGui.Position = UDim2.new(0.772853136, 0, 0.00280695409, 0)
+PcloseGui.Size = UDim2.new(0, 70, 0, 15)
+PcloseGui.Font = Enum.Font.SourceSans
+PcloseGui.Text = "P Hide Gui"
+PcloseGui.TextColor3 = Color3.fromRGB(99, 218, 48)
+PcloseGui.TextSize = 14.000
+
+Iy.Name = "Iy"
+Iy.Parent = ScrollingFrame
+Iy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Iy.BorderColor3 = Color3.fromRGB(195, 187, 175)
+Iy.BorderSizePixel = 2
+Iy.Position = UDim2.new(0.414849997, 0, 0.0717322454, 0)
+Iy.Size = UDim2.new(0, 105, 0, 35)
+Iy.Font = Enum.Font.SourceSans
+Iy.Text = "Load IY"
+Iy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Iy.TextSize = 23.000
+
+Reviz.Name = "Reviz"
+Reviz.Parent = ScrollingFrame
+Reviz.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Reviz.BorderColor3 = Color3.fromRGB(195, 157, 164)
+Reviz.BorderSizePixel = 2
+Reviz.Position = UDim2.new(0.414849997, 0, 0.11603605, 0)
+Reviz.Size = UDim2.new(0, 105, 0, 35)
+Reviz.Font = Enum.Font.SourceSans
+Reviz.Text = "Load REVIZ"
+Reviz.TextColor3 = Color3.fromRGB(241, 160, 255)
+Reviz.TextSize = 23.000
+
+CrashChat.Name = "CrashChat"
+CrashChat.Parent = ScrollingFrame
+CrashChat.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CrashChat.BackgroundTransparency = 0.100
+CrashChat.BorderColor3 = Color3.fromRGB(85, 0, 255)
+CrashChat.BorderSizePixel = 2
+CrashChat.Position = UDim2.new(0.00831024908, 0, 0.137658238, 0)
+CrashChat.Size = UDim2.new(0, 100, 0, 44)
+CrashChat.Font = Enum.Font.SourceSansItalic
+CrashChat.Text = "Crash Chat"
+CrashChat.TextColor3 = Color3.fromRGB(170, 0, 255)
+CrashChat.TextSize = 24.000
+CrashChat.TextWrapped = true
+
+ChatBy.Name = "ChatBy"
+ChatBy.Parent = ScrollingFrame
+ChatBy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ChatBy.BorderColor3 = Color3.fromRGB(172, 175, 195)
+ChatBy.BorderSizePixel = 2
+ChatBy.Position = UDim2.new(0.414849997, 0, 0.160428226, 0)
+ChatBy.Size = UDim2.new(0, 163, 0, 35)
+ChatBy.Font = Enum.Font.SourceSans
+ChatBy.Text = "Load Chatbypass"
+ChatBy.TextColor3 = Color3.fromRGB(255, 194, 181)
+ChatBy.TextSize = 23.000
+
+Ctrl.Name = "Ctrl"
+Ctrl.Parent = ScrollingFrame
+Ctrl.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Ctrl.BackgroundTransparency = 0.100
+Ctrl.BorderColor3 = Color3.fromRGB(85, 0, 255)
+Ctrl.BorderSizePixel = 2
+Ctrl.Position = UDim2.new(-0.00277008303, 0, 0.181887776, 0)
+Ctrl.Size = UDim2.new(0, 144, 0, 44)
+Ctrl.Font = Enum.Font.SourceSansItalic
+Ctrl.Text = "Ctrl+Click=Del"
+Ctrl.TextColor3 = Color3.fromRGB(149, 255, 193)
+Ctrl.TextSize = 24.000
+Ctrl.TextWrapped = true
+
+DestroyGui.Name = "DestroyGui"
+DestroyGui.Parent = ScrollingFrame
+DestroyGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DestroyGui.BorderColor3 = Color3.fromRGB(255, 2, 2)
+DestroyGui.BorderSizePixel = 2
+DestroyGui.Position = UDim2.new(0.641996682, 0, 0.0179665312, 0)
+DestroyGui.Size = UDim2.new(0, 129, 0, 25)
+DestroyGui.Font = Enum.Font.SourceSans
+DestroyGui.Text = "Click to destroy gui"
+DestroyGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+DestroyGui.TextSize = 15.000
+DestroyGui.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+DestroyGui.TextStrokeTransparency = 0.000
+
+AutoClick.Name = "AutoClick"
+AutoClick.Parent = ScrollingFrame
+AutoClick.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AutoClick.BorderColor3 = Color3.fromRGB(70, 91, 84)
+AutoClick.BorderSizePixel = 2
+AutoClick.Position = UDim2.new(0.00831025094, 0, 0.263144553, 0)
+AutoClick.Size = UDim2.new(0, 100, 0, 45)
+AutoClick.Font = Enum.Font.SourceSans
+AutoClick.Text = "Auto Click"
+AutoClick.TextColor3 = Color3.fromRGB(64, 51, 255)
+AutoClick.TextSize = 25.000
+
+Autofarms.Name = "Autofarms"
+Autofarms.Parent = ScrollingFrame
+Autofarms.BackgroundColor3 = Color3.fromRGB(185, 185, 185)
+Autofarms.BackgroundTransparency = 0.900
+Autofarms.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Autofarms.Position = UDim2.new(-0.00277008303, 0, 0.298673958, 0)
+Autofarms.Size = UDim2.new(0, 349, 0, 50)
+Autofarms.Font = Enum.Font.SourceSans
+Autofarms.Text = "Games and Packs"
+Autofarms.TextColor3 = Color3.fromRGB(255, 0, 0)
+Autofarms.TextSize = 50.000
+Autofarms.TextStrokeColor3 = Color3.fromRGB(67, 9, 9)
+Autofarms.TextStrokeTransparency = 0.500
+
+BF.Name = "BF"
+BF.Parent = ScrollingFrame
+BF.BackgroundColor3 = Color3.fromRGB(185, 185, 185)
+BF.BackgroundTransparency = 0.900
+BF.BorderColor3 = Color3.fromRGB(255, 0, 0)
+BF.Position = UDim2.new(-0.0193905793, 0, 0.344296157, 0)
+BF.Size = UDim2.new(0, 134, 0, 50)
+BF.Font = Enum.Font.SourceSans
+BF.Text = "Blox fruits:"
+BF.TextColor3 = Color3.fromRGB(255, 0, 0)
+BF.TextSize = 25.000
+BF.TextStrokeColor3 = Color3.fromRGB(85, 85, 255)
+BF.TextStrokeTransparency = 0.500
+BF.TextWrapped = true
+
+Hoho.Name = "Hoho"
+Hoho.Parent = ScrollingFrame
+Hoho.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Hoho.BorderColor3 = Color3.fromRGB(170, 255, 255)
+Hoho.BorderSizePixel = 2
+Hoho.Position = UDim2.new(0.32409972, 0, 0.34443602, 0)
+Hoho.Size = UDim2.new(0, 93, 0, 50)
+Hoho.Font = Enum.Font.SourceSans
+Hoho.Text = "Hoho Hub"
+Hoho.TextColor3 = Color3.fromRGB(170, 85, 255)
+Hoho.TextSize = 27.000
+
+Ripp.Name = "Ripp"
+Ripp.Parent = ScrollingFrame
+Ripp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Ripp.BorderColor3 = Color3.fromRGB(170, 255, 255)
+Ripp.BorderSizePixel = 2
+Ripp.Position = UDim2.new(0.614958405, 0, 0.34443602, 0)
+Ripp.Size = UDim2.new(0, 93, 0, 50)
+Ripp.Font = Enum.Font.SourceSans
+Ripp.Text = "Ripper Hubv1"
+Ripp.TextColor3 = Color3.fromRGB(170, 85, 255)
+Ripp.TextSize = 19.000
+
+Patchtext.Name = "Patch text"
+Patchtext.Parent = ScrollingFrame
+Patchtext.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Patchtext.BackgroundTransparency = 12312.000
+Patchtext.Position = UDim2.new(0.509695232, 0, 0.169775292, 0)
+Patchtext.Size = UDim2.new(0, 84, 0, 32)
+Patchtext.Font = Enum.Font.SourceSans
+Patchtext.Text = "Patched:("
+Patchtext.TextColor3 = Color3.fromRGB(255, 29, 0)
+Patchtext.TextSize = 24.000
+
+FE.Name = "FE"
+FE.Parent = ScrollingFrame
+FE.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FE.BackgroundTransparency = 12312.000
+FE.Position = UDim2.new(0.0304708984, 0, 0.11640808, 0)
+FE.Size = UDim2.new(0, 84, 0, 32)
+FE.Font = Enum.Font.SourceSans
+FE.Text = "Everyone see it(FE)"
+FE.TextColor3 = Color3.fromRGB(255, 29, 0)
+FE.TextSize = 13.000
+
+Rippv2.Name = "Rippv2"
+Rippv2.Parent = ScrollingFrame
+Rippv2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rippv2.BorderColor3 = Color3.fromRGB(170, 255, 255)
+Rippv2.BorderSizePixel = 2
+Rippv2.Position = UDim2.new(0.0193905234, 0, 0.380014181, 0)
+Rippv2.Size = UDim2.new(0, 93, 0, 50)
+Rippv2.Font = Enum.Font.SourceSans
+Rippv2.Text = "Ripper Hubv2"
+Rippv2.TextColor3 = Color3.fromRGB(170, 85, 255)
+Rippv2.TextSize = 19.000
+
+BFPack.Name = "BFPack"
+BFPack.Parent = ScrollingFrame
+BFPack.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BFPack.BorderColor3 = Color3.fromRGB(170, 255, 255)
+BFPack.BorderSizePixel = 2
+BFPack.Position = UDim2.new(0.32409972, 0, 0.379679173, 0)
+BFPack.Size = UDim2.new(0, 197, 0, 50)
+BFPack.Font = Enum.Font.SourceSans
+BFPack.Text = "Blox Fruit Pack(10+ scripts)"
+BFPack.TextColor3 = Color3.fromRGB(170, 85, 255)
+BFPack.TextSize = 22.000
+
+--hide gui key 
+local frame = game.CoreGui.MainGui.ScrollingFrame
+local mouse = game:GetService('Players').LocalPlayer:GetMouse();
+
+mouse.KeyDown:connect(function(key)
+key = key:lower()
+if key == 'p' then 
+frame.Visible = not frame.Visible 
+end
+end)
+
+--destroy gui
+DestroyGui.MouseButton1Click:connect(function ()
+	game.CoreGui.MainGui:Destroy()
+end)
+--d
+Infjump.MouseButton1Click:connect(function()
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+BeforeFling.MouseButton1Click:connect(function()
+
+end)
+
+Fling.MouseButton1Click:connect(function()
+local power = 500
+game:GetService('RunService').Stepped:connect(function()
+if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R6 then
+game.Players.LocalPlayer.Character.Head.CanCollide = false
+game.Players.LocalPlayer.Character.Torso.CanCollide = false
+game.Players.LocalPlayer.Character["Left Leg"].CanCollide = false
+game.Players.LocalPlayer.Character["Right Leg"].CanCollide = false
+else
+if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
+game.Players.LocalPlayer.Character.Head.CanCollide = false
+game.Players.LocalPlayer.Character.UpperTorso.CanCollide = false
+game.Players.LocalPlayer.Character.LowerTorso.CanCollide = false
+game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = false
+end
+end
+end)
+wait(.1)
+local bambam = Instance.new("BodyThrust")
+bambam.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+bambam.Force = Vector3.new(power,0,power)
+bambam.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+end)
+
+StopFling.MouseButton1Click:connect(function()
+active = false
+game.Players.LocalPlayer.Character.HumanoidRootPart.BodyThrust:Remove()
+end)
+
+RemoveLimbs.MouseButton1Click:connect(function()
+function cmd15(plr)
+	if plr.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
+		return true
+	end
+end
+	
+	if cmd15(game.Players.LocalPlayer) then
+		for _,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+			if v.Name == "RightUpperArm" or v.Name == "LeftUpperArm" or v.Name == "RightUpperLeg" or v.Name == "LeftUpperLeg" then
+				v:Destroy()
+			end
+		end
+	else
+		for _,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+			if v.Name == "Right Arm" or v.Name == "Left Arm" or v.Name == "Right Leg" or v.Name == "Left Leg" then
+				v:Destroy()
+			end
+		end
+	end
+	end)
+
+Reviz.MouseButton1Click:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/RqaZUrBZ"))()
+end)
+
+Cmd.MouseButton1Click:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()
+end)
+
+Iy.MouseButton1Click:connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Ctrl.MouseButton1Click:connect(function()
+ local Plr = game:GetService("Players").LocalPlayer
+local Mouse = Plr:GetMouse()
+
+Mouse.Button1Down:connect(function()
+if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then return end
+if not Mouse.Target then return end
+Mouse.Target:Destroy()
+end)
+end)
+
+CrashChat.MouseButton1Click:connect(function()
+while true do
+    wait(1.8)
+local args = {
+    [1] = " ",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+end
+end)
+
+ChatBy.MouseButton1Click:connect(function()
+ loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
+end)
+
+AutoClick.MouseButton1Click:connect(function ()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/ROBLOX_AutoClicker"))()
+end)
+
+Rippv2.MouseButton1Click:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/RIPPERHUBV2.lua"))()
+end)
+
+Ripp.MouseButton1Click:connect(function()
+_G.Color = Color3.fromRGB(52, 190, 255)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/NEWBF.lua"))()
+end)
+
+BFPack.MouseButton1Click:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/bf", true))()
+end)
+
+Hoho.MouseButton1Click:connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+AutoClick.MouseButton1Click:connect(function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/ROBLOX_AutoClicker"))()
+end)
